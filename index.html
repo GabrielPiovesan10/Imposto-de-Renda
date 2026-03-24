@@ -149,6 +149,39 @@ summary {
 .conteudo-menu li:last-child {
     border-bottom: none;
 }
+/* Container dos seus créditos */
+.creditos-gabriel {
+    text-align: center;
+    padding: 10px 0 20px 0; /* Espaço no final da página */
+    background-color: #f4f7f6; /* Combina com o fundo do rodapé */
+    font-size: 0.75rem; /* Letra bem pequena */
+    color: #666; /* Cinza discreto */
+}
+
+.creditos-gabriel span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* O seu mini botão do WhatsApp */
+.btn-gabriel {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #128c7e; /* Verde mais escuro e discreto */
+    color: white !important;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    transition: 0.3s;
+}
+
+.btn-gabriel:hover {
+    background-color: #25d366; /* Brilha no hover */
+    transform: scale(1.05);
+}
 
     </style>
 </head>
@@ -231,6 +264,13 @@ summary {
     © 2026 <strong style="color: #000000; font-weight: bold;">Márcio Piovesan</strong> |Cordeirópolis/SP
         Desenvolvido por Gabriel Piovesan
  </footer>
+
+    <div class="creditos-gabriel">
+    <span>Quer criar um site?</span>
+    <a href="https://wa.me/5519993405480" target="_blank" class="btn-gabriel">
+        <i class="fab fa-whatsapp"></i> Chame o Gabriel
+    </a>
+</div>
 
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
